@@ -27,3 +27,7 @@ C:\Users\balno\Documents\Projects\CVPorject1\obj\Debug\net5.0\CVPorject1.dll
 C:\Users\balno\Documents\Projects\CVPorject1\obj\Debug\net5.0\ref\CVPorject1.dll
 C:\Users\balno\Documents\Projects\CVPorject1\obj\Debug\net5.0\CVPorject1.pdb
 C:\Users\balno\Documents\Projects\CVPorject1\obj\Debug\net5.0\CVPorject1.genruntimeconfig.cache
+C:\Users\balno\Documents\Projects\CVPorject1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\balno\Documents\Projects\CVPorject1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\balno\Documents\Projects\CVPorject1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\balno\Documents\Projects\CVPorject1\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
