@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
+using CVPorject1.Models;
 
 namespace CVPorject1
 {
@@ -26,6 +28,11 @@ namespace CVPorject1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddDbContext<ModelContext>(options =>
+            options.UseSqlServer(
+                Configuration.GetConnectionString("DefaultConnection")
+            ));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
